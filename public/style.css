@@ -1,0 +1,105 @@
+html{	
+}
+
+body{
+	
+	  margin:0;
+  padding:0;
+
+  
+
+    min-width: 320px;
+
+	width:100%;
+
+	font-size: 1em;
+
+	height: 100%; 
+
+ }
+ 
+img{
+	width: 20%;
+	text-align: center;
+}
+
+h1{
+	font-family: courier, "courier new", monospace;
+	color: #FF0000;
+	font-size: 85px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 4.8pt;
+	text-align: center;
+}
+
+h3{
+	text-decoration:underline;
+}
+
+input{
+    border-radius: 20px;
+	margin-bottom: 0.5em;
+}
+
+.formulaire {
+	margin-left: 2em;
+	
+}
+
+	.formulaire label,input,textarea{
+	margin-left: 4em;
+}
+
+	.formulaire textarea{
+		width: 25%;
+	}
+
+	.formulaire label.textarea_label{
+		width: 20em;
+	}
+	.formulaire label{
+	display: block;
+	float: left;
+	width: 10em;
+	}
+	.formulaire textarea{
+		margin-left: 8em;
+	}
+
+.img_text{
+	width: 5%;
+}
+
+@media screen and (max-width: 768px){
+    body{
+		background: none;
+	}
+	
+	.formulaire {
+		margin-left: 0em;
+	}
+	
+	.formulaire label,input,textarea{
+		margin-left: 0.4em;
+	}
+	
+	.formulaire textarea{
+		width: 40%;
+	}
+	
+	h3{
+		text-decoration:underline;
+		font-size : 1em;
+	}
+	
+	.img_text{
+		width: 20%;
+	}
+	.formulaire textarea{
+		margin-left: 0em;
+		width: 90%
+	}
+
+}
+	

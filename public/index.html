@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css" media="all"/>
+		<title> Page d'accueil: Flash Code </title>
+	</head>
+
+	<body>
+	
+		<p style="text-align: center; display: block;"><img src="images/logo.png" id="img_logo"><label style="font-size: 1.5em;"for="img-logo"> Votre avis nous interesse </label></p>
+		
+	<form class="formulaire" method="POST" action="mail.php">
+		<h3> Vous êtes : </h3>
+			<label for="nom"> Mr ou Mme : </label><input type="text" name="nom" id="nom" required/></br>
+			<label for="tel"> Votre n° de téléphone : </label><input type="tel" name="tel" id="tel" required/></br>
+			<label for="email"> Votre email : </label><input type="email"  name="email" id="email" required/>
+	
+		<h3> Vous avez flashé le panneau sur le chantier de : </h3>
+			<label for="commune">Commune : </label><input type="text" name="commune" id="commune" required/></br>
+			<label for="rue">Nom de la rue : </label><input type="text" name="rue" id="rue" required/></br>
+			<label class="textarea_label" for="avis">Votre avis, satisfaction, mécontentement : </label></br>
+			<textarea rows="4" cols="100"  name="avis" id="avis" required></textarea></br>
+
+	
+		<p> Dans l'unique but de l'amélioration continue, <img class="img_text" src="images/logo.png"> vous remercie de votre aide </p>
+		</br>
+		<input type="submit" value="Publier ce message" />
+		
+	</form>
+
+	</body>		
+
+</html>
